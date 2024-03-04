@@ -17,7 +17,7 @@ public class RollerAgent : Agent
 
     public override void OnEpisodeBegin()
     {
-        if(transform.localPosition.y < 0)
+        if (transform.localPosition.y < 0)
         {
             rBody.angularVelocity = Vector3.zero;
             rBody.velocity = Vector3.zero;
